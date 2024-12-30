@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Generator Tool</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="vid">
+        <img src="abstract_circles_background_template_flat_elegance_modern_6941191/Abstract circle background 02.jpg" alt="">
+    </div>
+    <header class="header">
+        <div class="logo">Website<span>Boss</span></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <h2>Create Websites Effortlessly</h2>
+            <p>Streamline your web development process with our automated tool.</p>
+            <a href="#form-section" class="hero-btn">Get Started</a>
+        </div>
+
+        <div class="form-section">
+            <div class="container">
+                <h2>Fill Your Details Below</h2>
+                <form id="websiteForm">
+                    <div class="form-group">
+                        <label for="industry">Select Industry:</label>
+                        <select id="industry" required>
+                            <option value="">--Choose an Industry--</option>
+                            <option value="pharmacy">Pharmacy</option>
+                            <option value="cosmetics">Cosmetics</option>
+                            <option value="retail">Retail</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="companyName">Company Name:</label>
+                        <input type="text" id="companyName" placeholder="Enter your company name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Contact Details:</label>
+                        <input type="text" id="contact" placeholder="Enter phone or email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="colorTheme">Choose Color Theme:</label>
+                        <select id="colorTheme" required>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                            <option value="red">Red</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">Generate Website</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- <footer class="footer">&copy; 2024 WebsiteBoss.com | All Rights Reserved</footer> -->
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
