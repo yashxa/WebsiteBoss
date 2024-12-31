@@ -14,13 +14,12 @@ body {
 
 .container {
     max-width: 900px;
-    margin: 0 auto;
     padding: 20px;
 }
 
 /* Header Styles */
 .header {
-    background: linear-gradient(180deg, #007BFF, #0237e7);
+    background: linear-gradient(0deg, #1A1A1D, #3B1C32);
     color: white;
     padding: 15px 20px;
     display: flex;
@@ -65,16 +64,15 @@ body {
 }
 
 .vid img {
-    width: 100vw;
+    height: 100vw;
     align-content: center;
 }
 
 .hero {
     position: relative;
     text-align: center;
-    padding: 60px 20px;
-    z-index: 1;
-    /* background: rgba(0, 0, 0, 0.5); Add a semi-transparent background for readability */
+    padding: 6rem 20px;
+    z-index: 1; 
     color: white;
 }
 
@@ -87,8 +85,8 @@ body {
 }
 
 .hero-btn {
-    background: #5d00ff;
-    color: #333;
+    background: #543A14;
+    color: #FFF0DC;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
@@ -97,16 +95,16 @@ body {
 }
 
 .hero-btn:hover {
-    background: #ffc107;
+    background: #F0BB78;
 }
 
 /* Form Section */
 .form-section {
-    background: #ccc;
+    background-color:#FFF0DC;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 0rem 30rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-    margin-top: 20px;
     position: relative;
     z-index: 1;
 }
@@ -128,11 +126,16 @@ select {
     border-radius: 5px;
 }
 
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
 .btn {
     display: block;
-    width: 100%;
+    width: 50%;
     padding: 10px;
-    background: #007BFF;
+    background: #543A14;
     color: white;
     border: none;
     border-radius: 5px;
@@ -142,5 +145,5 @@ select {
 }
 
 .btn:hover {
-    background: #0056b3;
+    background: #F0BB78;
 }
